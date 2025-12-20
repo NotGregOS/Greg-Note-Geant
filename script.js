@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', () => {
-	// Charger dynamiquement le script data.js
 	const script = document.createElement('script');
 	script.src = 'content/data.js';
 	script.onload = () => {

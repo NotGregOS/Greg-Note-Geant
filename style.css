@@ -16,7 +16,6 @@ body {
     padding: 0 10px;
 }
 
-/* Card principale, harmonisée avec le fond */
 .link-card {
     background: #1e2a47;
     border-radius: 10px;
@@ -42,7 +41,6 @@ body {
     }
 }
 
-/* Suppression du doublon .link-card inutile */
 .link-card:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }

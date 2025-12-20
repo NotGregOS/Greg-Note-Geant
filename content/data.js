@@ -13,7 +13,7 @@ const content = {
             id : 2,
             name : "GitHub",
             description : "Greg-Note-Geant Repository",
-            url : "https://github.com/NotGregOS/Greg-Note-Geant",
+            url : "https://github.com/NotGregOS",
             categories : "github",
             dateAdded : "2024-06-15"
         },
