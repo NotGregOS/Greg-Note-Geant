@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #152238;
+    margin: 0;
+    padding: 0;
+    color: #e6e6f0;
+}
+
+#links-container {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+/* Card principale, harmonisée avec le fond */
+.link-card {
+    background: #1e2a47;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    transition: box-shadow 0.2s;
+    flex: 1 1 320px;
+    min-width: 260px;
+    max-width: 350px;
+    margin: 0;
+    box-sizing: border-box;
+    color: #e6e6f0;
+}
+@media (max-width: 700px) {
+    #links-container {
+        flex-direction: column;
+        gap: 18px;
+        padding: 0 4vw;
+    }
+    .link-card {
+        max-width: 100%;
+        min-width: 0;
+    }
+}
+
+/* Suppression du doublon .link-card inutile */
+.link-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+.link-card h2 {
+    margin: 0 0 8px 0;
+    font-size: 1.3em;
+}
+.link-card a {
+    color: #63b3ff;
+    text-decoration: none;
+}
+.link-card a:hover {
+    text-decoration: underline;
+}
+.link-card .category {
+    display: inline-block;
+    background: #23325a;
+    color: #63b3ff;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+.link-card .date {
+    color: #b0b6c8;
+    font-size: 0.9em;
+}
