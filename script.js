@@ -14,12 +14,13 @@ function displayLinks(links) {
 	container.innerHTML = '';
 	links.forEach(link => {
 		const card = document.createElement('div');
+		const d = new Date(link.dateAdded);
 		card.className = 'link-card';
 		card.innerHTML = `
 			<h2><a href="${link.url}" target="_blank">${link.name}</a></h2>
 			<p>${link.description}</p>
 			<span class="category">${link.categories}</span>
-			<span class="date">Added : ${link.dateAdded}</span>
+			<span class="date">Added : ${d.toDateString()}</span>
 		`;
 		container.appendChild(card);
 	});
