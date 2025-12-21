@@ -7,7 +7,6 @@ body {
 }
 
 #links-container {
-    white-space: pre-line;
     max-width: 900px;
     margin: 30px auto;
     display: flex;
