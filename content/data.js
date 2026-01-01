@@ -644,7 +644,7 @@ const content = {
             description:
                 "Moteur de recherche pour les appareils connectés à l'Internet des objets (IoT).",
             description_en:
-                "?",
+                "Search Engine for Internet-connected devices.",
             url: "https://www.shodan.io/",
             categories: "Reverse Search",
             dateAdded: "2025-03-29T18:43:45.045000+00:00",
@@ -654,7 +654,7 @@ const content = {
             description:
                 "Outil spécialisé dans le renseignement et l'analyse de données en ligne.",
             description_en:
-                "?",
+                "Verify emails, phones, names, and social profiles.",
             url: "https://espysys.com/",
             categories: "Reverse Search",
             dateAdded: "2025-03-24T12:08:30.601000+00:00",
@@ -664,7 +664,7 @@ const content = {
             description:
                 "Moteur de recherche d'images inversé permettant de trouver l'origine d'une photo.",
             description_en:
-                "?",
+                "Reverse Image Search.",
             url: "https://tineye.com/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:26:45.687000+00:00",
@@ -674,7 +674,7 @@ const content = {
             description:
                 "Moteur de recherche par reconnaissance faciale pour retrouver des photos de visages sur le web.",
             description_en:
-                "?",
+                "Reverse Image Search for Faces.",
             url: "https://pimeyes.com/en",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:26:18.106000+00:00",
@@ -684,7 +684,7 @@ const content = {
             description:
                 "Recherche inversée d'images particulièrement efficace pour les illustrations et animes.",
             description_en:
-                "?",
+                "Reverse Image Search/Image Source Locator, mainly for Animes or Art content.",
             url: "https://saucenao.com/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:24:54.883000+00:00",
@@ -694,7 +694,7 @@ const content = {
             description:
                 "Outil pour trouver des copies ou des utilisations similaires d'une image en ligne.",
             description_en:
-                "?",
+                "Reverse Image Search to find copies of an image.",
             url: "https://copyseeker.net/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:24:54.883000+00:00",
@@ -704,7 +704,7 @@ const content = {
             description:
                 "Moteur de recherche inversé spécialisé dans les travaux d'art japonais (Pixiv, Twitter).",
             description_en:
-                "?",
+                "Reverse Image Search for Japanese Fanart (such as Pixiv) and Anime-Style Image Boorus.",
             url: "https://ascii2d.net/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:24:54.883000+00:00",
@@ -714,7 +714,7 @@ const content = {
             description:
                 "Outil pour identifier un anime et l'épisode correspondant à partir d'une simple image.",
             description_en:
-                "?",
+                "Trace back the scene from an Anime Screenshot.",
             url: "https://trace.moe/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:24:54.883000+00:00",
@@ -724,7 +724,7 @@ const content = {
             description:
                 "Boîte à outils pour effectuer diverses opérations (édition, recherche) sur une image.",
             description_en:
-                "?",
+                "Toolbox for Image related operations (editing or reverse search).",
             url: "https://www.imgops.com/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:24:54.883000+00:00",
@@ -744,7 +744,7 @@ const content = {
             description:
                 "Recherche d'images multi-services pour les galeries d'art et boorus.",
             description_en:
-                "?",
+                "Reverse Image Search for Anime-Style Image Boorus.",
             url: "https://iqdb.org/",
             categories: "Reverse Search",
             dateAdded: "2025-03-10T15:24:54.883000+00:00",
@@ -754,18 +754,8 @@ const content = {
             description:
                 "Accès direct au chat par intelligence artificielle privé de DuckDuckGo.",
             description_en:
-                "?",
+                "Ask questions to a variety of AI chatbots privately.",
             url: "https://duck.ai",
-            categories: "AI",
-            dateAdded: "2025-10-30T16:48:43.819000+00:00",
-        },
-        {
-            name: "DuckDuckGo AI Chat",
-            description:
-                "Conversation anonyme et sécurisée avec différents modèles d'IA via DuckDuckGo.",
-            description_en:
-                "?",
-            url: "https://duck.ai/",
             categories: "AI",
             dateAdded: "2025-10-30T16:48:43.819000+00:00",
         },
@@ -774,7 +764,7 @@ const content = {
             description:
                 "Un client tout-en-un pour utiliser ChatGPT, Claude, Bard et Bing en même temps.",
             description_en:
-                "?",
+                "Client to use multiple AI chatbots at once.",
             url: "https://chathub.gg/fr",
             categories: "AI",
             dateAdded: "2025-10-30T15:31:23.416000+00:00",
@@ -784,7 +774,7 @@ const content = {
             description:
                 "Ressource Rentry détaillant les meilleurs outils pour modifier sa voix via l'IA.",
             description_en:
-                "?",
+                "Guide for W-Okada's RealTimeVoiceChangerClient",
             url: "https://rentry.co/VoiceChangerGuide",
             categories: "AI",
             dateAdded: "2025-10-29T11:33:25.924000+00:00",
@@ -792,9 +782,9 @@ const content = {
         {
             name: "FMHY Voice Clone Guide",
             description:
-                "Section du wiki FMHY consacrée au clonage vocal et aux technologies de deepfake audio.",
+                "FMHY - Voice Change / Clone.",
             description_en:
-                "?",
+                "FMHY - Voice Change / Clone.",
             url: "https://fmhy.pages.dev/ai#voice-change-clone",
             categories: "AI",
             dateAdded: "2025-10-29T11:32:29.870000+00:00",
@@ -802,9 +792,9 @@ const content = {
         {
             name: "FMHY AI Directory",
             description:
-                "Répertoire exhaustif d'outils d'IA pour le texte, l'image et le son sur FMHY.",
+                "FMHY - Chatbots, Text Generators, Image Generators, Chatbot Tools.",
             description_en:
-                "?",
+                "FMHY - Chatbots, Text Generators, Image Generators, Chatbot Tools.",
             url: "https://fmhy.pages.dev/ai",
             categories: "AI",
             dateAdded: "2025-10-29T11:32:29.870000+00:00",
@@ -812,9 +802,9 @@ const content = {
         {
             name: "w-okada Voice Changer",
             description:
-                "Dépôt GitHub d'un logiciel de changement de voix en temps réel utilisant l'IA.",
+                "Logiciel de changement de voix en temps réel.",
             description_en:
-                "?",
+                "Real-Time Voice Changer (W-Okada).",
             url: "https://github.com/w-okada/voice-changer",
             categories: "AI",
             dateAdded: "2025-10-29T08:23:14.684000+00:00",
@@ -1063,7 +1053,7 @@ const content = {
             description:
                 "Outil OSINT pour collecter des profils d'utilisateurs sur des milliers de sites web.",
             description_en:
-                "?",
+                "OSINT Tool - Username Search",
             url: "https://github.com/soxoj/maigret",
             categories: "OSINT",
             dateAdded: "2025-11-16T21:58:25.124000+00:00",
@@ -1073,7 +1063,7 @@ const content = {
             description:
                 "Documentation technique expliquant les options de ligne de commande de Maigret.",
             description_en:
-                "?",
+                "OSINT Tool - Username Search, Maigret Documentation.",
             url: "https://maigret.readthedocs.io/en/latest/command-line-options.html#output-options",
             categories: "OSINT",
             dateAdded: "2025-11-16T21:44:21.540000+00:00",
@@ -1083,7 +1073,7 @@ const content = {
             description:
                 "Portail français regroupant les meilleurs outils pour l'investigation numérique.",
             description_en:
-                "?",
+                "OSINT Toolbox (French Website).",
             url: "https://osintfr.com/outils/",
             categories: "OSINT",
             dateAdded: "2025-11-16T20:50:14.306000+00:00",
@@ -1093,7 +1083,7 @@ const content = {
             description:
                 "Outil de scraping pour les réseaux sociaux (Twitter, Facebook, Instagram).",
             description_en:
-                "?",
+                "Scraper for Social Networking Services (SNS). Scrapes things such as user profiles, hashtags, or searches.",
             url: "https://github.com/JustAnotherArchivist/snscrape",
             categories: "OSINT",
             dateAdded: "2025-11-13T21:40:57.152000+00:00",
@@ -1103,7 +1093,7 @@ const content = {
             description:
                 "Script pour récupérer des informations sur des comptes Instagram (e-mails, téléphones).",
             description_en:
-                "?",
+                "Extract information from Instagrams Accounts such as e-mails or phone numbers.",
             url: "https://github.com/megadose/toutatis",
             categories: "OSINT",
             dateAdded: "2025-11-13T20:46:51.152000+00:00",
@@ -1113,47 +1103,27 @@ const content = {
             description:
                 "Utilitaire pour télécharger des photos, vidéos et métadonnées depuis Instagram.",
             description_en:
-                "?",
+                "Instagram Downloader for pictures (or videos). Also downloads  their captions and other metadata.",
             url: "https://github.com/instaloader/instaloader",
             categories: "OSINT",
             dateAdded: "2025-11-13T20:46:18.134000+00:00",
-        },
-        {
-            name: "Profil Instagram OSINT",
-            description:
-                "Cible ou exemple de profil Instagram pour des recherches OSINT.",
-            description_en:
-                "?",
-            url: "https://www.instagram.com/_systummm.__/",
-            categories: "OSINT",
-            dateAdded: "2025-11-13T20:43:50.175000+00:00",
         },
         {
             name: "CybDetective OSINT Map",
             description:
                 "Carte interactive regroupant des centaines de ressources OSINT par catégorie.",
             description_en:
-                "?",
+                "Worldwide OSINT tools map.",
             url: "https://cybdetective.com/osintmap/",
             categories: "OSINT",
             dateAdded: "2025-09-24T20:44:30.277000+00:00",
-        },
-        {
-            name: "Analyst Research Tools Resources",
-            description:
-                "Sélection de ressources professionnelles pour les analystes en renseignement.",
-            description_en:
-                "?",
-            url: "https://analystresearchtools.com/resources",
-            categories: "OSINT",
-            dateAdded: "2025-09-24T20:44:05.792000+00:00",
         },
         {
             name: "TheTimeMachine GitHub",
             description:
                 "Outil pour explorer l'historique web et les archives internet à des fins d'enquête.",
             description_en:
-                "?",
+                "Weaponize WaybackUrls for Recon, BugBounties , OSINT and Sensitive Endpoints.",
             url: "https://github.com/anmolksachan/TheTimeMachine?utm_source=substack&utm_medium=email",
             categories: "OSINT",
             dateAdded: "2025-07-14T17:30:02.472000+00:00",
@@ -1163,7 +1133,7 @@ const content = {
             description:
                 "Portail d'outils dédiés à l'investigation open-source.",
             description_en:
-                "?",
+                "Collection of online OSINT Tools & Multi-site OSINT Searches.",
             url: "https://analystresearchtools.com/",
             categories: "OSINT",
             dateAdded: "2025-07-02T14:53:22.538000+00:00",
@@ -1171,9 +1141,9 @@ const content = {
         {
             name: "FMHY OSINT Tools",
             description:
-                "Section spécialisée de FMHY listant les outils d'intelligence en sources ouvertes.",
+                "FMHY - Open Source Intelligence.",
             description_en:
-                "?",
+                "FMHY - Open Source Intelligence.",
             url: "https://fmhy.pages.dev/internet-tools#open-source-intelligence",
             categories: "OSINT",
             dateAdded: "2025-07-02T14:13:31.401000+00:00",
@@ -1183,7 +1153,7 @@ const content = {
             description:
                 "Outil ou guide lié à l'anonymat et à la sécurité numérique.",
             description_en:
-                "?",
+                "OSINT Puzzles and Challenges.",
             url: "https://cipherstick.tech/",
             categories: "OSINT",
             dateAdded: "2025-06-21T18:21:36.405000+00:00",
@@ -1193,7 +1163,7 @@ const content = {
             description:
                 "Collection massive de liens et de ressources pour les chercheurs OSINT.",
             description_en:
-                "?",
+                "Open Source Intelligence Tools & Resources",
             url: "https://osint.link/",
             categories: "OSINT",
             dateAdded: "2025-06-21T18:20:05.512000+00:00",
@@ -1203,7 +1173,7 @@ const content = {
             description:
                 "Arborescence interactive d'outils OSINT classés par type de donnée recherchée.",
             description_en:
-                "?",
+                "Free OSINT Resources",
             url: "https://osintframework.com/",
             categories: "OSINT",
             dateAdded: "2025-06-21T18:20:05.512000+00:00",
