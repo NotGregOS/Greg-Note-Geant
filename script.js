@@ -4,6 +4,7 @@ const store = {
     favorites: JSON.parse(localStorage.getItem('gregNoteFavs')) || [],
     viewMode: localStorage.getItem('gregNoteView') || 'view-grid',
     isSidebarCollapsed: localStorage.getItem('gregNoteSidebar') === 'true',
+    setLanguage: localStorage.getItem('gregNoteLanguage') || 'fr',
 
     toggleFav: function(url) {
         if (this.favorites.includes(url)) {
@@ -27,6 +28,12 @@ const store = {
         this.isSidebarCollapsed = !this.isSidebarCollapsed;
         localStorage.setItem('gregNoteSidebar', this.isSidebarCollapsed);
         applySidebarState();
+    },
+
+    changeLanguage: function() {
+        this.setLanguage = this.setLanguage === 'fr' ? 'en' : 'fr';
+        localStorage.setItem('gregNoteLanguage', this.setLanguage);
+        renderContent(processedData); 
     }
 };
 
@@ -37,7 +44,8 @@ const dom = {
     search: document.getElementById('search-input'),
     stats: document.getElementById('stats-bar'),
     btnView: document.getElementById('btn-view-toggle'),
-    btnSidebar: document.getElementById('btn-toggle-sidebar')
+    btnSidebar: document.getElementById('btn-toggle-sidebar'),
+    btnLang: document.getElementById('btn-lg-change')
 };
 
 let processedData = [];
@@ -158,6 +166,11 @@ function renderContent(data) {
         container.className = `links-container ${store.viewMode}`;
 
         group.items.forEach(item => {
+            let usedDescription;
+            if (store.setLanguage === 'fr') {
+                usedDescription = item.description;
+            } else usedDescription = item.description_en;
+
             const isFav = store.favorites.includes(item.url);
             
             // Wrapper pour positionner les boutons absolus
@@ -207,7 +220,7 @@ function renderContent(data) {
                     <img src="${favicon}" class="site-icon" onerror="this.style.opacity=0">
                     <div class="link-name">${item.name} ${utils.isNew(item.dateAdded) ? '<span class="badge-new">NEW</span>' : ''}</div>
                 </div>
-                <div class="link-desc">${item.description || ''}</div>
+                <div class="link-desc">${usedDescription || ''}</div>
                 <div class="card-footer">
                     <span>${utils.formatDate(item.dateAdded)}</span>
                     <span>↗</span>
@@ -264,6 +277,7 @@ function init() {
     dom.search.addEventListener('input', handleSearch);
     dom.btnView.addEventListener('click', () => store.toggleView());
     dom.btnSidebar.addEventListener('click', () => store.toggleSidebar());
+    dom.btnLang.addEventListener('click', () => store.changeLanguage());
 }
 
 init();
